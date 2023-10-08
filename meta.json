@@ -1,6 +1,6 @@
 [
   {
-    "repo": "https://raw.githubusercontent.com/Minizbot2012/MZRadialMenu/master/repo.json",
+    "repo": "https://raw.githubusercontent.com/mids-collective/MZRadialMenu/master/repo.json",
     "plugins": ["MZRadialMenu"]
   },
   {

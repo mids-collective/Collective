@@ -16,18 +16,23 @@
     "LoadPriority": 0,
     "LoadRequiredState": 0,
     "LoadSync": false,
+    "Tags": [
+      "UI",
+      "Myd Collective"
+    ],
     "DownloadLinkInstall": "https://github.com/mids-collective/MZRadialMenu/releases/download/0.0.1.0/MZRadialMenu.zip",
     "DownloadLinkTesting": "https://github.com/mids-collective/MZRadialMenu/releases/download/0.0.1.0/MZRadialMenu.zip",
     "DownloadLinkUpdate": "https://github.com/mids-collective/MZRadialMenu/releases/download/0.0.1.0/MZRadialMenu.zip",
-    "IconUrl": "",
-    "Tags": [
-      "Myd Collective"
-    ]
+    "IconUrl": ""
   },
   {
     "Author": "Minizbot2012",
     "Name": "MZPuppeteer",
     "Description": "WIP - Do not use",
+    "Tags": [
+      "RP",
+      "Myd Collective"
+    ],
     "InternalName": "MZPuppeteer",
     "AssemblyVersion": "0.0.1.0",
     "TestingAssemblyVersion": "0.0.1.0",
@@ -44,9 +49,6 @@
     "DownloadLinkInstall": "https://github.com/mids-collective/MZPuppeteer/releases/download/0.0.1.0/MZPuppeteer.zip",
     "DownloadLinkTesting": "https://github.com/mids-collective/MZPuppeteer/releases/download/0.0.1.0/MZPuppeteer.zip",
     "DownloadLinkUpdate": "https://github.com/mids-collective/MZPuppeteer/releases/download/0.0.1.0/MZPuppeteer.zip",
-    "IconUrl": "",
-    "Tags": [
-      "Myd Collective"
-    ]
+    "IconUrl": ""
   }
 ]

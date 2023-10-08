@@ -1,0 +1,10 @@
+[
+  {
+    "repo": "https://raw.githubusercontent.com/Minizbot2012/MZRadialMenu/master/repo.json",
+    "plugins": ["MZRadialMenu"]
+  },
+  {
+    "repo": "https://raw.githubusercontent.com/mids-collective/MZPuppeteer/main/repo.json",
+    "plugins": ["MZPuppeteer"]
+  }
+]

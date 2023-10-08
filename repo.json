@@ -1,2 +1,52 @@
 [
+  {
+    "Author": "Minizbot2012",
+    "Name": "MZRadialMenu",
+    "Description": "Radial Menu 'Nuff Said.",
+    "InternalName": "MZRadialMenu",
+    "AssemblyVersion": "0.1.0.0",
+    "TestingAssemblyVersion": "0.1.0.0",
+    "RepoUrl": "https://github.com/myds-dalamud-plugins/MZRadialMenu",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "DownloadCount": 0,
+    "LastUpdate": 0,
+    "LoadPriority": 0,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "DownloadLinkInstall": "https://github.com/Minizbot2012/MZRadialMenu/releases/download/0.0.1.0/MZRadialMenu.zip",
+    "DownloadLinkTesting": "https://github.com/Minizbot2012/MZRadialMenu/releases/download/0.0.1.0/MZRadialMenu.zip",
+    "DownloadLinkUpdate": "https://github.com/Minizbot2012/MZRadialMenu/releases/download/0.0.1.0/MZRadialMenu.zip",
+    "IconUrl": "",
+    "Tags": [
+      "Myd Collective"
+    ]
+  },
+  {
+    "Author": "Minizbot2012",
+    "Name": "MZPuppeteer",
+    "Description": "Radial Menu 'Nuff Said.",
+    "InternalName": "MZPuppeteer",
+    "AssemblyVersion": "0.1.0.0",
+    "TestingAssemblyVersion": "0.1.0.0",
+    "RepoUrl": "https://github.com/mids-collective/MZPuppeteer",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "DownloadCount": 0,
+    "LastUpdate": 0,
+    "LoadPriority": 0,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "DownloadLinkInstall": "https://github.com/mids-collective/MZPuppeteer/releases/download/0.0.1.0/MZPuppeteer.zip",
+    "DownloadLinkTesting": "https://github.com/mids-collective/MZPuppeteer/releases/download/0.0.1.0/MZPuppeteer.zip",
+    "DownloadLinkUpdate": "https://github.com/mids-collective/MZPuppeteer/releases/download/0.0.1.0/MZPuppeteer.zip",
+    "IconUrl": "",
+    "Tags": [
+      "Myd Collective"
+    ]
+  }
 ]

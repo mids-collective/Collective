@@ -3,6 +3,13 @@ on:
     - cron: "*/5 * * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+
 jobs:
   generate:
     name: Generate repository
@@ -11,11 +18,17 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: main
-      - uses: actions/setup-node@v3
+      - name: "Setup jq"
+        uses: dcarbone/install-jq-action@v2.0.2
         with:
-          node-version: 20
-      - name: Run generator
-        run: node index.js
+          force: true
+      - name: Generate
+        run: |
+          repos=($(jq -cr '.repos.[].repo' meta.json))
+          for i in "${!repos[@]}"; do
+            curl ${repos[$i]} -o repo_$i.json
+          done
+          jq '[ $meta[].repos[].plugins[] as $plg | [.[][]] | .[].Tags+=$meta[].tags | map(select(.Name | . as $n | $plg | index($n)!=null)) ] | flatten' -s repo_*.json --slurpfile meta meta.json
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"

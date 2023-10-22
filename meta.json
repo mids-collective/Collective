@@ -1,10 +1,19 @@
-[
-  {
-    "repo": "https://raw.githubusercontent.com/mids-collective/MZRadialMenu/master/repo.json",
-    "plugins": ["MZRadialMenu"]
-  },
-  {
-    "repo": "https://raw.githubusercontent.com/mids-collective/MZPuppeteer/main/repo.json",
-    "plugins": ["MZPuppeteer"]
-  }
-]
+{
+  "tags": [
+    "Myd Collective"
+  ],
+  "repos": [
+    {
+      "repo": "https://raw.githubusercontent.com/mids-collective/MZRadialMenu/master/repo.json",
+      "plugins": [
+        "MZRadialMenu"
+      ]
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/mids-collective/MZPuppeteer/main/repo.json",
+      "plugins": [
+        "MZPuppeteer"
+      ]
+    }
+  ]
+}

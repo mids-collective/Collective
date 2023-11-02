@@ -28,7 +28,7 @@ jobs:
           for i in "${!repos[@]}"; do
             curl ${repos[$i]} -o repo_$i.json
           done
-          jq '[ $meta[].repos[].plugins[] as $plg | [.[][]] | .[].Tags+=$meta[].tags | map(select(.Name | . as $n | $plg | index($n)!=null)) ] | flatten' -s repo_*.json --slurpfile meta meta.json
+          jq '[ $meta[].repos[].plugins[] as $plg | [.[][]] | .[].Tags+=$meta[].tags | map(select(.Name | . as $n | $plg | index($n)!=null)) ] | flatten' -s repo_*.json --slurpfile meta meta.json > repo.json
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"

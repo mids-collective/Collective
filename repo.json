@@ -7,6 +7,7 @@
     "InternalName": "MZRadialMenu",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
+    "TestingDalamudApiLevel": 11,
     "Tags": [
       "UI",
       "Myd Collective"
@@ -20,9 +21,9 @@
     "LoadRequiredState": 0,
     "LoadSync": false,
     "AssemblyVersion": "0.3.0.0",
-    "TestingAssemblyVersion": "0.3.1.0",
+    "TestingAssemblyVersion": "0.3.1.1",
     "DownloadLinkInstall": "https://github.com/mids-collective/MZRadialMenu/releases/download/0.3.0.0/MZRadialMenu.zip",
-    "DownloadLinkTesting": "https://github.com/mids-collective/MZRadialMenu/releases/download/testing_0.3.1.0/MZRadialMenu.zip",
+    "DownloadLinkTesting": "https://github.com/mids-collective/MZRadialMenu/releases/download/testing_0.3.1.1/MZRadialMenu.zip",
     "DownloadLinkUpdate": "https://github.com/mids-collective/MZRadialMenu/releases/download/0.3.0.0/MZRadialMenu.zip",
     "IconUrl": ""
   },

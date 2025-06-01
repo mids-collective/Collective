@@ -8,12 +8,6 @@
       "plugins": [
         "MZRadialMenu"
       ]
-    },
-    {
-      "repo": "https://raw.githubusercontent.com/mids-collective/MZPuppeteer/main/repo.json",
-      "plugins": [
-        "MZPuppeteer"
-      ]
     }
   ]
 }
